@@ -10,7 +10,7 @@ function Header(){
             <h1>ValueHunterDCF</h1>
         
         <a href="/Features.js">How it Works?</a>
-        <a href="/">Download</a>
+        <a href="/Download.js">Download</a>
         <a href="/Contact.js">Contact</a>
         </header>
     );

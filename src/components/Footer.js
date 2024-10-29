@@ -3,7 +3,8 @@ import React from 'react';
 function Footer(){
     return(
         <footer>
-            <p>© 2024 ValuHunter. All rights reserved</p>
+            <p>© 2024 ValueHunter. All rights reserved</p>
+            support : support@getvaluehunter.com
         </footer>
     );
 }
