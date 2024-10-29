@@ -1,18 +1,28 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import { Link as ScrollLink } from 'react-scroll';
 
 function Header(){
     return(
         <header>
-            <Helmet>
-                
-            </Helmet>
-            <h1>ValueHunterDCF</h1>
+        <Helmet>
+            <title>ValueHunterDCF</title>
+        </Helmet>
+        <h1>ValueHunterDCF</h1>
+
         
-        <a href="/Features.js">How it Works?</a>
-        <a href="/Download.js">Download</a>
-        <a href="/Contact.js">Contact</a>
-        </header>
+        <nav>
+            <ScrollLink to="features" smooth={true} duration={500}>
+                How it Works?
+            </ScrollLink>
+            <ScrollLink to="download" smooth={true} duration={500}>
+                Download
+            </ScrollLink>
+            <ScrollLink to="contact" smooth={true} duration={500}>
+                Contact
+            </ScrollLink>
+        </nav>
+    </header>
     );
 }
 
