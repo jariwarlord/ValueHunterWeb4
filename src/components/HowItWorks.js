@@ -5,7 +5,7 @@ function HowItWorks(){
         <div id="how" className="how-container">
         <div className="how-box">
            
-            <p>How </p>
+            <p>Lorem    </p>
         </div>
     </div>
      );
