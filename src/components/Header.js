@@ -12,7 +12,7 @@ function Header(){
 
         
         <nav>
-            <ScrollLink to="features" smooth={true} duration={500}>
+            <ScrollLink to="how" smooth={true} duration={500}>
                 How it Works?
             </ScrollLink>
             <ScrollLink to="download" smooth={true} duration={500}>
